@@ -17,7 +17,7 @@ if playerGuesses == 1:
             print('A gondolt szám nagyobb, mint amit tippeltél.')
         else :
             print('A gondolt szám kisebb, mint amit tippeltél.')
-        guess = int(input('Írj be egy számot 8 és 3333 között. '))
+        guess = int(input('Írj be egy számot 8 és 3333 között.\n'))
     print('Nagyon ügyes vagy!')
     print(str(counter)+' lépés kellett hozzá')
 
