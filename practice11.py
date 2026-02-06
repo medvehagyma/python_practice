@@ -66,6 +66,7 @@ for num in numbers :
 
 
 # kiírom a páros számok számát
+
 def countEven (number) :
     count = 0
 
@@ -76,6 +77,7 @@ def countEven (number) :
 print("A páros számok száma:", countEven(numbers))
 
 # kiírom a negatív számokat
+
 def isNegative (number) :
     isNegative = number < 0
     return isNegative
@@ -84,6 +86,7 @@ for num in numbers :
     if isNegative(num) : print("Negatív szám a(z):", num)
 
 # kiírom a negatív számok számát
+
 def countNegative (number) :
     count = 0
 
