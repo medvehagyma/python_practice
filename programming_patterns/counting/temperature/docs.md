@@ -7,7 +7,7 @@ There are measurements in a list and I'm counting the ones above 28 °C.
 
 ### How to start the program
 To use this program one needs to have Python on their computer.
-Than you may open a terminal and run the program with the following command:  
+Then you may open a terminal and run the program with the following command:  
 ` py temperature.py `
 
 ## Developer documentation
@@ -27,7 +27,7 @@ output: cnt &isin; N
 precondition: -  
 postcondition: cnt = $\sum_{i=0}^{n} 1 \quad \text{where } temps[i]>28 $  
 
-![main counting patter structogram](main_counting_pattern.png)
+![main counting pattern structogram](main_counting_pattern.png)
 
 Output part: We simply print the resulting number to the terminal in which the program was executed.
 

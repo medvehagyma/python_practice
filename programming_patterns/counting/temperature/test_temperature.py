@@ -6,7 +6,7 @@ from temperature import cntHotterThan28
 # py -m pytest test_temperature.py
 
 
-# alapvető használat tesztelése
+# testing basic use
 
 def test_happyPath () :
 
