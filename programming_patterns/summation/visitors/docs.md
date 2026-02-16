@@ -49,8 +49,8 @@ The test file can be ran with the following command:
 
 testing plan:  
 
-test_happyPath: This tests the most basic use of the algorithm. The input contains all sorts of numbers in the interval specified by the precondition.
-test_emptyList: This tests for an empty input where the expected output is 0.
+test_happyPath: This tests the most basic use of the algorithm. The input contains all sorts of numbers in the interval specified by the precondition.  
+test_emptyList: This tests for an empty input where the expected output is 0.  
 test_oneEntry: This test that the function works correctly when the list has only one value, it should return that value as the sum.  
 test_allZeros: This test for that when all visitor counts are zero, the function returns zero and doesn’t accidentally add something extra.  
 test_orderIndependence: Checks that the order of the numbers doesn’t matter, the sum should be the same even if the list is rearranged.
