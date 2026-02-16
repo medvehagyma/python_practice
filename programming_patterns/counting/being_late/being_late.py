@@ -11,13 +11,12 @@ minutes = [4, 6, 0, 13, 16, 0, 3, 0, 8, 17]
 # algorithm
 
 def countMin (minutes) :
-
     cnt = 0
 
     for i in range (0, len(minutes)) :
         if minutes[i] > 15 :
             cnt += 1
-
+            
     return cnt
 
 
