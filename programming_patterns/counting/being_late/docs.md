@@ -25,7 +25,7 @@ to the counting pattern. Hence any complicated input are not needed.
 For the specification of the algorithm:  
 input: n &isin; N, minutes &isin; Z [0..n]  
 output: cnt &isin; N  
-precondition: &forall; i &isin; minutes[i] &isin; >= 0  
+precondition: &forall; i &isin; [0..n]: minutes[i] >=0  
 postcondition: cnt = $\sum_{i=0}^{n} 1 \quad \text{where } minutes[i]>15 $  
 
 Reduction:  
