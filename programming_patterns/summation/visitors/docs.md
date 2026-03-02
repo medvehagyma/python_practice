@@ -8,8 +8,8 @@ There are 7 numbers in a list and I'm calculation the sum of these numbers.
 ### How to start the program
 
 To use this program one needs to have Python on their computer.
-Then you may open a terminal and run the program with the following command:
-' py visitors.py '
+Then you may open a terminal and run the program with the following command:  
+` py visitors.py `
 
 ## Developer documentation
 ### About the program
@@ -25,7 +25,7 @@ For the specification of the algorithm:
 input: visitors &isin; Z [0..6]  
 output: totalSum &isin; N  
 precondition: -  
-postcondition: totalSum = $\sum_{i=0}^{6} 1 \quad \text{where } visitors[i] $  
+postcondition: totalSum = $\sum_{i=0}^{6} visitors[i] $  
 
 Reduction:
 This problem can be reduced to the summation programming pattern.
@@ -36,13 +36,13 @@ Reduction table:
 |:---------------:|:---------------:|:-----------:|
 |a..b|0..6|indexes: What is the range of indexes for the elements of the input.|
 |sum|totalSum|output variable: This will contain the resulting number.|
-|f(i)|visitors[i]|condition: This has to be true for an element to be counted into the result.|
+|f(i)|visitors[i]|transformation: This is what we want to add together.|
   
 ![main summation pattern structogram](main_visitors_algorithm.png)
 
 Output part: We simply print the resulting number to the terminal in which the program was executed.  
 
-Testing
+## Testing
 The program was tested with unit testing in the ` test_visitors.py ` file using pytest which required to be installed for testing.
 The test file can be ran with the following command:
 ` py -m pytest test_visitors.py `  
