@@ -21,7 +21,14 @@ if len(sys.argv) >= 2:
             current_person["age"] = int(input(f"Enter the age of the {i + 1}th person: ")) # to the "age" key we map the value that we get from the keyboard after converting it to an integer type 
             persons.append(current_person) # we add the person that we just "built" to the persons list, which the algorithm will process
     else: # reading from files with given filename
-        print("Reading input from files not yet supported")
+        with open("data/"+sys.argv[1], "r", encoding="utf-8") as infile:
+            for line in infile:
+              # print(line, end="")
+                dataChunks = line.split(";") # strings' lists
+                current_person = {}
+                current_person["name"] = dataChunks[0]
+                current_person["age"] = int(dataChunks[1])
+                persons.append(current_person)
 else:
     persons = defaultPersons
 

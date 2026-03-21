@@ -1,0 +1,6 @@
+Encsi;26
+Falesz;29
+Virág;27
+Anna;39
+Lala;35
+Jónás;25
